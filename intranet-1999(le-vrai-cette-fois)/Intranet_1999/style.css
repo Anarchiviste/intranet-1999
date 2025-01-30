@@ -1,0 +1,57 @@
+body{
+    background-image: url(contenu/images/streaming-fond-code-binaire_97886-226.avif);
+    margin-left: 10%;
+    margin-right: 10%;
+} /* On privilégie les images via téléchargement, c'est pas la bonne solution, mais c'est la solution simple pour échanger le code sans avoir à mettre à jour quelles images nous utilisons, encore une fois, on est là pour faire un site, pas respecter les normes européennes.*/
+header{
+    font-family: "Press Start 2P", serif; /* La police importée par l'API Google avec un console de film de hacker à la Matrix */
+    font-size:70%;
+}
+
+section{
+    display: flex; /*ça nous fait forcément des bouttons égaux, si on veut forcément mettre un élément avec des tailles différentes, on ne peut pas utiliser une flexbox*/;
+    background-image: url("contenu/images/morpheus.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a{
+    height: 200px;
+    width: 200px;
+    margin: 10%;
+    text-align: justify;
+    flex: 200px; /*Hyper Important de ne PAS toucher à cette valeure, elle contrôle toute notre mise en page de la page d'accueil*/
+    border-radius: 50%;
+}
+
+button{
+    height: 200px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+p{
+    color: aliceblue;
+}
+
+.A{
+    color: aliceblue; 
+    background-color: rgb(0, 0, 0);
+}
+
+.Rouge{
+    background-color: red;
+    text-align: center;
+    font-size: large;
+}
+
+.Bleu{
+    background-color: blue;
+    text-align: center;
+    font-size: large;
+}
+.publicité{
+    background-image: url("../Intranet_1999/contenu/images/popularmech_plug.gif");
+    height: 50px;
+}
+

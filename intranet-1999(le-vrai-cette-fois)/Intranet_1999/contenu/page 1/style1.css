@@ -1,0 +1,81 @@
+body{
+    background-image: url(../images/pailette.gif);/*Ok je ne savais pas qu'importé un gif permettait d'avoir un fond d'écran animé*/
+    background-repeat: repeat;
+    background-position: center;
+    background-position:top;
+}
+
+article{
+    text-align: justify;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.h1{
+    
+    color: rgb(255, 158, 242);/*Le rose le plus coquet s'il te plait*/
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0); /*ça rajoute une petite marge sur le texte, j'ai piqué ça sur un tuto*/
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.h2{
+    width: 100%;
+    height: auto;
+}
+
+
+/*LES FLEXBOX DES PROFILES APRÈS TANT DE SUEUR, ÇA FONCTIONNE ENFIN*/
+.section1{
+    display: flex;
+  
+}
+.section2{
+    display:flex;
+}
+.section3{
+    display: flex;
+}
+.section4{
+    display:flex;
+}
+.section5{
+    display: flex;
+}
+
+.publicité{
+    background-image: url("../images/pubzerif.gif");
+    height: 60px;
+}
+
+.publicité2{
+    background-image: url("../images/ROBOTECH.gif");
+    height: 60px;
+}
+.message{
+    background-color: rgb(251, 255, 0);
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.publicité3{
+    background-image: url("../images/goats468.gif");
+    height: 60px;
+}
+
+.publicité5{
+    background-image: url("../images/bug.gif");
+    height: 60px;
+}
+
+.publicité7{
+    background-image: url("../images/chebanner.gif");
+    height: 60px;
+}
